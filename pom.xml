@@ -58,7 +58,7 @@
 
 	<modules>
 		<module>api</module>
-		<module>jms</module>
+		<!-- module>jms</module-->
 	</modules>
 
 	<distributionManagement>
