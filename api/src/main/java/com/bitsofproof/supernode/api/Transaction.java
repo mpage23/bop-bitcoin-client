@@ -48,7 +48,7 @@ public class Transaction implements Serializable, Cloneable
 
 		public Builder inputs(Iterable<TransactionInput> inputs)
 		{
-			inputs.forEach(this.inputs::add);
+//			inputs.forEach(this.inputs::add);
 			return this;
 		}
 
@@ -60,7 +60,7 @@ public class Transaction implements Serializable, Cloneable
 
 		public Builder outputs(Iterable<TransactionOutput> outputs)
 		{
-			outputs.forEach(this.outputs::add);
+//			outputs.forEach(this.outputs::add);
 			return this;
 		}
 
