@@ -46,7 +46,7 @@ import org.bouncycastle.util.Arrays;
 public class ExtendedKey
 {
 	private static final SecureRandom rnd = new SecureRandom ();
-	private static final X9ECParameters curve = SECNamedCurves.getByName ("secp256k1");
+	private static final X9ECParameters curve = SECNamedCurves.getByName ("secp256r1");
 
 	private final Key master;
 	private final byte[] chainCode;

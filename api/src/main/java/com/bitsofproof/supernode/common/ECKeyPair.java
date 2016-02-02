@@ -42,7 +42,7 @@ import com.bitsofproof.supernode.api.Address;
 public class ECKeyPair implements Key
 {
 	private static final SecureRandom secureRandom = new SecureRandom ();
-	private static final X9ECParameters curve = SECNamedCurves.getByName ("secp256k1");
+	private static final X9ECParameters curve = SECNamedCurves.getByName ("secp256r1");
 	private static final ECDomainParameters domain = new ECDomainParameters (curve.getCurve (), curve.getG (), curve.getN (), curve.getH ());
 
 	private BigInteger priv;
